@@ -75,3 +75,95 @@ body {
   color: red;
   text-align: center;
 }
+
+.form-div form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-div form input {
+  width: 50%;
+  height: 3vh;
+  font-size: 1.4rem;
+}
+
+.form-div form label {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.edit-button {
+  margin: 5px;
+  order: 1px solid grey;
+  padding: 5px 15px;
+  background-color: #5582C6;
+  color: white;
+  width: 8%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background: lightskyblue;
+  cursor: pointer;
+}
+
+.delete-button {
+  margin: 5px;
+  order: 1px solid grey;
+  padding: 5px 15px;
+  background-color: #FA5757;
+  color: white;
+  width: 8%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background: #F39295;
+  cursor: pointer;
+}
+
+.buttons-div {
+  display: flex;
+  justify-content: center;
+}
+
+.add-button {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.add-button:hover {
+  background: #4D4D4D;
+  cursor: pointer;
+}
+
+.form-title {
+  text-align: center;
+}
+
+.edit-btn {
+  margin: 20px;
+  order: 1px solid grey;
+  padding: 5px 15px;
+  background-color: #5582C6;
+  color: white;
+  width: 8%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: lightskyblue;
+  cursor: pointer;
+}
